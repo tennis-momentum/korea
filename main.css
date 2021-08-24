@@ -1,0 +1,116 @@
+:root{
+    --background-color: #F5F5F5;
+    --text-color : #404040;
+    --bright-color:#757575;
+    --accent-color:#FFE8BC;
+ 
+}
+html{
+    font-size:0.8rem;
+}
+body{
+    background-color: var(--background-color);
+    margin: 0;
+}
+header{
+    padding-top: 12rem;
+}
+.title{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 2.1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.total-search{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.input-txt{
+    display: inline-block;
+    width: 22rem;
+    border-color:var(--bright-color);
+    border-width: 0 0 2px;
+    height : 2rem;
+    background-color: var(--background-color);
+    text-align: center;
+    color: var(--bright-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.input-txt:focus{
+  outline: none;
+}
+
+.search-btn{
+    position: relative;
+
+}
+.s-btn1{
+    float: inline-end;
+    color: var(--bright-color);
+    position: absolute;
+    top: -0.9rem;
+    right: 0.1rem;
+}
+.search-btn2{
+    float: right;
+    color: var(--background-color);
+}
+
+
+.search-filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+.set-location{
+    width: 12rem;
+    border-radius: 10px;
+    background-color: var(--text-color);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    color:var(--accent-color);
+    text-align: center;
+}
+
+.set-address legend {
+    background-color: var(--text-color);
+    width: 12rem;
+    border-radius: 10px;
+    vertical-align: middle;
+    color: var(--accent-color);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: relative;
+}
+
+.set-address legend i{
+    float: right;
+    color: var(--background-color);
+}
+form{
+    margin-top: 20px;
+}
+fieldset{
+    color: var(--bright-color);
+}
+
+.search-box label{
+  display: block;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.search-box select{
+  width: 6rem;
+  margin : 1rem 0.5rem 1rem;
+  border-radius: 3px;
+  height: 1.8rem;
+}
